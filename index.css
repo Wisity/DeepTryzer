@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+
+header{
+    text-align: center;
+    border-bottom: 2px solid rgb(1, 3, 109);
+    padding-bottom: 50px;
+}
+
+header ul{
+
+    
+    border: 2px solid rgb(1, 3, 109);
+    border-top-left-radius: 20px;
+    background: linear-gradient(64deg,black, rgb(1, 3, 109));
+    border-bottom-right-radius: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 15px;
+}
+
+ul li{
+    display: inline-block;
+    margin: 15px;
+    padding: 8px 15px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 20px;
+}
+
+header ul li:hover{
+    transform: scale(1.2 , 1.2);
+    background: linear-gradient(8deg,black, rgb(1, 4, 199));
+    border-radius: 15px;
+
+}
+
